@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.local
+*.tsbuildinfo
+
+# Large voice model binaries (too big for GitHub)
+voices/*.onnx
+voices/runtime/
+
+# Scratch / test bundles and archives
+/_*.mjs
+/_*.ts
+*.zip
